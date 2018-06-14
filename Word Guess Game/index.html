@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Cartoon Hangman</title>
+
+	<!-- Reset CSS -->
+	<link href"./assets/css/reset.css">
+	<!-- Link to CSS -->
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet"> 
+	<!-- Link to JavaScript -->
+	<script src="./assets/javascript/game.js" type="text/javascript"></script>
+</head>
+  
+<body>
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12 col-lg-12">	
+			<h1>Cartoon Hangman</h1>
+		</div>
+	</div>
+</div>		
+
+<div class="container-fluid-2">
+	<div class="row">
+		<div class="col-lg-3">
+			<img src="./assets/images/Wile-E-Coyote.png" class="img-fluid" alt="Responsive image" style="width:420px; height: 500px; margin-top: 100px; margin-left: 40px;">
+		</div>
+		<div class="col-lg-6 gameplay-column">
+				<h2 id="pressAnyKey" class="pressAnyKey">Press any key to get started!</h2>
+				<h2 id="pressKeyTryAgain">Press Any Key to Try Again!</h2>
+				<br></br>
+				<!--<h2 id="cartoonName">cartoons name here</h2>-->
+				<img id="anykey-image" src="./assets/images/cartoons.jpg" class="img-fluid" alt="Press any key image" style="width: 400px; height: 230px;">
+				<img id="gameover-image" src="./assets/images/Game-Over.png" class="img-fluid" alt="Press any key image" style="width: 400px; height: 230px;">
+				<img id="youwin-image" src="./assets/images/Bugs-Bunny.png" class="img-fluid" alt="Winning 1 image" style="width: 400px; height: 230px;">
+				<!--<img id="youwin2-imag" src="./assets/images/He-Man.png" class="img-fluid" alt="winning 2 image" style="width: 400px; height: 230px;">
+				<img id="youwin3-image" src="./assets/images/Hey-Arnold.png" class="img-fluid" alt="winning 3 image" style="width: 400px; height: 230px;">
+				<img id="youwin4-image" src="./assets/images/Pikachu.png" class="img-fluid" alt="winning 4 image" style="width: 400px; height: 230px;">
+				<img id="youwin5-image" src="./assets/images/Thundercats.png" class="img-fluid" alt="winning 5 image" style="width: 400px; height: 230px;"> -->
+				<br></br>
+				<h3 id="totalWinsTitle">Wins:</h3>
+				<h3 id="totalWins"></h3>
+				<h3 id="currentWordTitle">Current Word:</h3>
+				<h3 id="currentWord" class="underscore"></h3>
+				<h3 id="numberOfGuessesRemaining">Number of Guesses Remaining:</h3>
+				<h3 id="remainingGuesses"></h3>
+				<h3 id="numberOfGuessesRemaining">Letters Already Guessed:</h3>
+				<h3 id="remainingGuesses" class"wrongGuess"></h3>
+				<h3 id="guessedLettersTitle">Letters Correctly Guessed:</h3>
+				<h3 id="guessedLetters" class="rightGuess"></h3>
+		</div>		  
+		<div class="col-lg-3">			
+			<img src="./assets/images/Ash-Ketchum.png" class="img-fluid" alt="Responsive image" style="width:420px;height:500px; margin-top: 100px; padding-right: 60px;">		  
+		</div>		
+	</div>
+</div>
+
+<div class="row-fluid">
+	<div class="col-12">
+		<p>
+		Copyright ©
+		</p>
+	</div>
+</div>	
+
+
+ <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  
+</body>
+
+</html>

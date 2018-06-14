@@ -1,0 +1,68 @@
+/* override Bootstrap's container */
+.row-fluid {
+    padding-right:0;
+    padding-left:0;
+    padding: 30px;
+    padding-bottom: 5px;
+    margin-right:auto;
+    margin-left:auto;
+    font-size: 8pt;
+    text-align: center;
+    color: white;
+    background-color: cornflowerblue;
+ }
+
+ .gameplay-column {
+     margin-bottom: 100px;
+ }
+ 
+ .container-fluid {
+    background-color: cornflowerblue;
+    Margin: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: 'Bangers';
+    font-size: 20px;
+ }
+
+ .container-fluid-2 {
+    background-color: cornflowerblue;
+    Margin: 0px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: 'Bangers';
+    font-size: 20px;
+ }
+
+ .container{
+     background-color: cornflowerblue;
+    
+ }
+
+#title-image, #gameover-image, #youwin-image{ 
+    display: block;
+    margin: 0 auto;
+}
+
+#currentWord {
+    letter-spacing: 10px;
+}
+
+#pressKeyTryAgain, 
+#gameover-image, 
+#youwin-image { display: none;}
+
+/* 
+.cartoonName
+
+.pressAnyKey
+
+.wins
+
+.currentWord
+
+.numberOfGuessesRemaining
+
+.lettersGuessed
